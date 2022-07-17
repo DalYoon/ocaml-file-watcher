@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/watcher/META"
+  "_build/install/default/lib/watcher/dune-package"
+  "_build/install/default/lib/watcher/opam"
+]
+bin: [
+  "_build/install/default/bin/watcher"
+]

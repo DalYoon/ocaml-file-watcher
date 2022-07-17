@@ -1,0 +1,4 @@
+(executable
+ (public_name watcher)
+ (name watcher)
+ (libraries fsevents fsevents-lwt cf-lwt core core_unix.command_unix watcher))
