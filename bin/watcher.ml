@@ -64,4 +64,4 @@ let command =
 
 (* ----- Cli Code End ------------------------------------------------------ *)
 
-let () = Command_unix.run command ~version:"1.0"
+let () = Command_unix.run command ~version:"0.1"
