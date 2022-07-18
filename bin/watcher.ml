@@ -5,7 +5,8 @@ let string_of_event event =
      변수를 꺼낼 때 Fsevents_lwt.path라는식으로 꺼냈는데
      Fsevents_lwt파일을 보면 path라는건 없다
      이 path가 event.path를 의미한다는게 자동으로 추론되었고
-     그렇기 때문에 어노테이션 없이 event가 Fsevents_lwt.event로 추론되었다.
+     그렇기 때문에 event에 대한 어노테이션 없이 
+     event가 Fsevents_lwt.event 임이 추론되었다.
      꺼낼때는 Fsevents_lwt.path라고 했지만, 쓸때는 그냥 path라고 쓴다.
   *)
   let { Fsevents_lwt.path; flags; _ } = event in
